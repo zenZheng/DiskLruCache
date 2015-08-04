@@ -885,7 +885,7 @@ public final class DiskLruCache implements Closeable {
     }
   }
 
-  private final class Entry {
+  protected final class Entry {
     private final String key;
 
     /** Lengths of this entry's files. */
